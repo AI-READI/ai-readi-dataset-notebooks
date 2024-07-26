@@ -4,7 +4,7 @@
 
 <br />
 
-<h1> AI-READI Data Notebooks </h1>
+<h1> AI-READI Dataset Notebooks </h1>
 
 <p>
 Jupyter notebooks that provide examples Python code snippets for working with the AI-READI data
