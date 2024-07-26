@@ -88,9 +88,6 @@ To report any issues please open a new issue via the [Issues](https://github.com
 This work is licensed under
 [MIT](https://opensource.org/licenses/mit). See [LICENSE](https://github.com/AI-READI/ai-readi-dataset-notebooks/blob/main/LICENSE) for more information.
 
-<a href="https://aireadi.org" >
-  <img src="https://www.channelfutures.com/files/2017/04/3_0.png" height="30" />
-</a>
 
 ## How to cite
 
