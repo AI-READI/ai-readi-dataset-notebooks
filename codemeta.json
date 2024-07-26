@@ -59,16 +59,6 @@
                 "@type": "Organization",
                 "name": "University of Washington"
             }
-        },
-        {
-            "@type": "Person",
-            "@id": "https://orcid.org/0000-0002-0307-262X",
-            "givenName": "Bhavesh",
-            "familyName": "Patel",
-            "affiliation": {
-                "@type": "Organization",
-                "name": "FAIR Data Innovations Hub, California Medical Innovations Institute"
-            }
         }
     ]
 }
