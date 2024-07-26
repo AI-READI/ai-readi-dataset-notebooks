@@ -4,10 +4,10 @@
 
 <br />
 
-<h1>Project Title</h1>
+<h1> AI-READI Data Notebooks </h1>
 
 <p>
-Project one-liner description
+Jupyter notebooks that provide examples Python code snippets for working with the AI-READI data
 </p>
 
 <br />
@@ -28,21 +28,10 @@ Project one-liner description
   <a href="https://doi.org/10.5281/zenodo.6407300">
     <img src="https://zenodo.org/badge/DOI/10.5281/zenodo.6407300.svg" alt="doi" />
   </a>
-  <a href="https://fairdataihub.org/fairshare">
-    <img src="https://raw.githubusercontent.com/fairdataihub/FAIRshare/main/badge.svg" alt="Curated with FAIRshare" />
-  </a>
 </p>
    
-<h4>
-    <a href="#">Sublink 1</a>
-  <span> · </span>
-    <a href="#">Documentation</a>
-  <span> · </span>
-    <a href="#">Changelog</a>
-  <span> · </span>
-    <a href="https://github.com/AI-READI/template/issues/">Report Bug</a>
-  <span> · </span>
-    <a href="#">Request Feature</a>
+<h4
+    <a href="https://github.com/AI-READI/ai-readi-dataset-notebooks/issues">Report Bug</a>
   </h4>
 </div>
 
@@ -52,25 +41,48 @@ Project one-liner description
 
 ## Description
 
-Add a description of your project here. This is template repository for the AI-READI project to help start with our [best practices](https://github.com/AI-READI/software-development-best-practices)
+This repository contains Jupyter notebooks developed by the AI-READI team to provide examples for working with the AI-READI dataset. The dataset is accessible on [FAIRhub](https://doi.org/10.60775/fairhub.1). More details about the dataset are available in the [dataset documentation](https://docs.aireadi.org).
 
-## Getting started
+## Standard followed
+The overall code is structured according to the [FAIR-BioRS guidelines](https://fair-biors.org/). The Python code in the Jupyter notebook [main.ipynb](main.ipynb) follows the [PEP8 guidelines](https://peps.python.org/pep-0008). Functions are documented with docstring formatted following [Google's style guide](https://google.github.io/styleguide/pyguide.html#38-comments-and-docstrings). All the dependencies are documented in the [environment.yml](environment.yml) file.
 
-### Prerequisites/Dependencies
+## Using the Jupyter notebooks
 
-- Describe any prerequisites, libraries, OS version, etc., needed before installing your application.
+### Prerequisites
+We recommend using Anaconda to create and manage your development environment and using JupyterLab to run the notebook. All the subsequent instructions are provided assuming you are using [Anaconda (Python 3 version)](https://www.anaconda.com/products/individual) and JupyterLab.
 
-### Installing
+### Clone repo
+Clone the repo or download as a zip and extract.
 
-- Describe the installation process. Include code snippets and screenshots if needed. You can also add environment generation installation in here as well.
+### cd into the code folder
 
-### Inputs and Outputs
+Open Anaconda prompt (Windows) or the system Command line interface then naviguate to the code
+```sh
+cd .ai-readi-dataset-notebooks
+```
+
+### Setup conda env
+```sh
+$ conda env create -f environment.yml
+```
+
+### Setup kernell for Jupyter lab
+```sh
+$ conda activate ai-readi-dataset-notebooks
+$ conda install ipykernel
+$ ipython kernel install --user --name=<any_name_for_kernel>
+$ conda deactivate
+```
+### Launch Jupyter lab
+Launch Jupyter lab and naviguate to open the main.ipynb file. Make sure to change the kernel to the one created above (e.g., see [here](https://doc.cocalc.com/howto/jupyter-kernel-selection.html#cocalc-s-jupyter-notebook)). We recommend to use the [JupyterLab code formatter](https://github.com/ryantam626/jupyterlab_code_formatter) along with the [Black](https://github.com/psf/black) and [isort](https://github.com/PyCQA/isort) formatters to facilitate compliance with PEP8 if you are editing the notebook.
+
+## Inputs and Outputs
 
 - Describe the inputs and outputs of your application. Include code snippets and screenshots if needed.
 
 ## Contributing
 
-<a href="https://github.com/AI-READI/template/graphs/contributors">
+<a href="https://github.com/AI-READI/ai-readi-dataset-notebooks/edit/main/README.md">
   <img src="https://contrib.rocks/image?repo=AI-READI/template" />
 </a>
 
@@ -78,16 +90,13 @@ Contributions are always welcome!
 
 If you are interested in reporting/fixing issues and contributing directly to the code base, please see [CONTRIBUTING.md](CONTRIBUTING.md) for more information on what we're looking for and how to get started.
 
-For any developmental standards to follow, add them directly to the [CONTRIBUTING.md](CONTRIBUTING.md) file.
-
 ## Issues and Feedback
 
-To report any issues with the software, suggest improvements, or request a new feature, please open a new issue via the [Issues](https://github.com/AI-READI/template/issues) tab. Provide adequate information (operating system, steps leading to error, screenshots) so we can help you efficiently.
+To report any issues please open a new issue via the [Issues](https://github.com/AI-READI/ai-readi-dataset-notebooks/issues) tab. Provide adequate information (operating system, steps leading to error, screenshots) so we can help you efficiently.
 
 ## License
-
 This work is licensed under
-[MIT](https://opensource.org/licenses/mit). See [LICENSE](https://github.com/AI-READI/template/blob/main/LICENSE) for more information.
+[MIT](https://opensource.org/licenses/mit). See [LICENSE](https://github.com/AI-READI/ai-readi-dataset-notebooks/blob/main/LICENSE) for more information.
 
 <a href="https://aireadi.org" >
   <img src="https://www.channelfutures.com/files/2017/04/3_0.png" height="30" />
@@ -104,8 +113,6 @@ If you are using this software or reusing the source code from this repository f
 ## Acknowledgements
 
 This project is funded by the NIH under award number 1OT2OD032644. The content is solely the responsibility of the authors and does not necessarily represent the official views of the NIH.
-
-Add any other acknowledgements here.
 
 <br />
 
