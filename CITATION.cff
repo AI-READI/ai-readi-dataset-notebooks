@@ -1,28 +1,31 @@
-abstract: "A sample template for AI-READI projects"
+abstract: "Jupyter notebooks that provide examples Python code snippets for working with the AI-READI data"
 authors:
-  - affiliation: "FAIR Data Innovations Hub"
-    email: "ssoundarajan@calmi2.org"
-    family-names: Soundarajan
-    given-names: Sanjay
-  - affiliation: "FAIR Data Innovations Hub"
-    email: "bpatel@calmi2.org"
+  - affiliation: "University of Washington"
+    family-names: Gim
+    given-names: Nayoon
+  - affiliation: "University of Washington"
+    family-names: Shaffer
+    given-names: Jamie
+  - affiliation: "University of Washington"
+    family-names: Owen
+    given-names: Julia
+  - affiliation: "FAIR Data Innovations Hub, California Medical Innovations Institute"
     family-names: Patel
     given-names: Bhavesh
 cff-version: 1.2.0
-date-released: "2022-11-28"
+date-released: "2024-08-05"
 identifiers:
   - description: "DOI for this software's record on Zenodo"
     type: doi
-    value: "10.5281/zenodo.7373697"
+    value: "10.5281/zenodo.12877880"
 keywords:
-  - "AI-READI"
-  - template
-  - project
+  - AI-READI
+  - Notebooks
+  - Python
 license: MIT
-message: "If you use this software, please cite it as below."
-repository-artifact: "https://github.com/AI-READI/template"
-repository-code: "https://github.com/AI-READI/template"
-title: "AI-READI Template"
+repository-artifact: "https://github.com/AI-READI/ai-readi-dataset-notebooks"
+repository-code: "https://github.com/AI-READI/ai-readi-dataset-notebooks"
+title: "AI-READI Dataset Notebooks"
 type: software
 url: "https://aireadi.org"
-version: 0.0.1
+version: 1.0.0
