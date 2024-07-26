@@ -25,8 +25,8 @@ Jupyter notebooks that provide examples Python code snippets for working with th
   <a href="https://github.com/AI-READI/template/blob/main/LICENSE">
     <img src="https://img.shields.io/github/license/AI-READI/template.svg?style=flat-square" alt="license" />
   </a>
-  <a href="https://doi.org/10.5281/zenodo.6407300">
-    <img src="https://zenodo.org/badge/DOI/10.5281/zenodo.6407300.svg" alt="doi" />
+  <a href="https://doi.org/10.5281/zenodo.12877880">
+    <img src="https://zenodo.org/badge/DOI/10.5281/zenodo.12877880.svg" alt="doi" />
   </a>
 </p>
    
@@ -44,7 +44,7 @@ Jupyter notebooks that provide examples Python code snippets for working with th
 This repository contains Jupyter notebooks developed by the AI-READI team to provide examples for working with the AI-READI dataset. The dataset is accessible on [FAIRhub](https://doi.org/10.60775/fairhub.1). More details about the dataset are available in the [dataset documentation](https://docs.aireadi.org).
 
 ## Standard followed
-The overall code is structured according to the [FAIR-BioRS guidelines](https://fair-biors.org/). The Python code in the Jupyter notebook [main.ipynb](main.ipynb) follows the [PEP8 guidelines](https://peps.python.org/pep-0008). Functions are documented with docstring formatted following [Google's style guide](https://google.github.io/styleguide/pyguide.html#38-comments-and-docstrings). All the dependencies are documented in the [environment.yml](environment.yml) file.
+The overall code is structured according to the [FAIR-BioRS guidelines](https://fair-biors.org/). The Python code in the Jupyter notebooks, located in the `main` folder follow the [PEP8 guidelines](https://peps.python.org/pep-0008). Functions are documented with docstring formatted following [Google's style guide](https://google.github.io/styleguide/pyguide.html#38-comments-and-docstrings). All the dependencies are documented in the [environment.yml](environment.yml) file.
 
 ## Using the Jupyter notebooks
 
@@ -74,11 +74,11 @@ $ ipython kernel install --user --name=<any_name_for_kernel>
 $ conda deactivate
 ```
 ### Launch Jupyter lab
-Launch Jupyter lab and naviguate to open the main.ipynb file. Make sure to change the kernel to the one created above (e.g., see [here](https://doc.cocalc.com/howto/jupyter-kernel-selection.html#cocalc-s-jupyter-notebook)). We recommend to use the [JupyterLab code formatter](https://github.com/ryantam626/jupyterlab_code_formatter) along with the [Black](https://github.com/psf/black) and [isort](https://github.com/PyCQA/isort) formatters to facilitate compliance with PEP8 if you are editing the notebook.
+Launch Jupyter lab and naviguate to `main` folders to select the notebook you want to use (there is one notebook per data type). Make sure to change the kernel to the one created above (e.g., see [here](https://doc.cocalc.com/howto/jupyter-kernel-selection.html#cocalc-s-jupyter-notebook)). We recommend to use the [JupyterLab code formatter](https://github.com/ryantam626/jupyterlab_code_formatter) along with the [Black](https://github.com/psf/black) and [isort](https://github.com/PyCQA/isort) formatters to facilitate compliance with PEP8 if you are editing the notebook.
 
 ## Inputs and Outputs
 
-- Describe the inputs and outputs of your application. Include code snippets and screenshots if needed.
+The input of the notebooks are the data files from the AI-READI dataset associated with that notebook. Download the AI-READI dataset from [FAIRhub](https://doi.org/10.60775/fairhub.1) and add the dataset in an `input` folder created at the root level of this repo. 
 
 ## Contributing
 
