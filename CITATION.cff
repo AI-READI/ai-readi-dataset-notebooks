@@ -9,9 +9,6 @@ authors:
   - affiliation: "University of Washington"
     family-names: Owen
     given-names: Julia
-  - affiliation: "FAIR Data Innovations Hub, California Medical Innovations Institute"
-    family-names: Patel
-    given-names: Bhavesh
 cff-version: 1.2.0
 date-released: "2024-08-05"
 identifiers:
