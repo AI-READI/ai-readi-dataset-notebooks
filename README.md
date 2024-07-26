@@ -80,16 +80,6 @@ Launch Jupyter lab and naviguate to `main` folders to select the notebook you wa
 
 The input of the notebooks are the data files from the AI-READI dataset associated with that notebook. Download the AI-READI dataset from [FAIRhub](https://doi.org/10.60775/fairhub.1) and add the dataset in an `input` folder created at the root level of this repo. 
 
-## Contributing
-
-<a href="https://github.com/AI-READI/ai-readi-dataset-notebooks/edit/main/README.md">
-  <img src="https://contrib.rocks/image?repo=AI-READI/template" />
-</a>
-
-Contributions are always welcome!
-
-If you are interested in reporting/fixing issues and contributing directly to the code base, please see [CONTRIBUTING.md](CONTRIBUTING.md) for more information on what we're looking for and how to get started.
-
 ## Issues and Feedback
 
 To report any issues please open a new issue via the [Issues](https://github.com/AI-READI/ai-readi-dataset-notebooks/issues) tab. Provide adequate information (operating system, steps leading to error, screenshots) so we can help you efficiently.
