@@ -50,15 +50,6 @@
                 "@type": "Organization",
                 "name": "University of Washington"
             }
-        },
-        {
-            "@type": "Person",
-            "givenName": "Julia",
-            "familyName": "Owen",
-            "affiliation": {
-                "@type": "Organization",
-                "name": "University of Washington"
-            }
         }
     ]
 }
