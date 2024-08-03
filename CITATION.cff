@@ -6,9 +6,6 @@ authors:
   - affiliation: "University of Washington"
     family-names: Shaffer
     given-names: Jamie
-  - affiliation: "University of Washington"
-    family-names: Owen
-    given-names: Julia
 cff-version: 1.2.0
 date-released: "2024-08-05"
 identifiers:
