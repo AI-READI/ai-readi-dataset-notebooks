@@ -1,4 +1,4 @@
-name: sparc-marker-paper
+name: ai-readi-dataset-notebooks
 channels:
   - defaults
   - conda-forge
