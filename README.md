@@ -67,11 +67,11 @@ $ conda env create -f environment.yml
 ```sh
 $ conda activate ai-readi-dataset-notebooks
 $ conda install ipykernel
-$ ipython kernel install --user --name=<any_name_for_kernel>
+$ ipython kernel install --user --name=ai-readi-dataset-notebooks
 $ conda deactivate
 ```
 ### Launch Jupyter lab
-Launch Jupyter lab and naviguate to `main` folders to select the notebook you want to use (there is one notebook per data type). Make sure to change the kernel to the one created above (e.g., see [here](https://doc.cocalc.com/howto/jupyter-kernel-selection.html#cocalc-s-jupyter-notebook)). We recommend to use the [JupyterLab code formatter](https://github.com/ryantam626/jupyterlab_code_formatter) along with the [Black](https://github.com/psf/black) and [isort](https://github.com/PyCQA/isort) formatters to facilitate compliance with PEP8 if you are editing the notebook.
+Launch Jupyter lab and naviguate to `main` folders to select the notebook you want to use (there is one notebook per data type). Make sure to change the kernel to "ai-readi-dataset-notebooks" (e.g., see [here](https://doc.cocalc.com/howto/jupyter-kernel-selection.html#cocalc-s-jupyter-notebook)). We recommend to use the [JupyterLab code formatter](https://github.com/ryantam626/jupyterlab_code_formatter) along with the [Black](https://github.com/psf/black) and [isort](https://github.com/PyCQA/isort) formatters to facilitate compliance with PEP8 if you are editing the notebook.
 
 ## Inputs and Outputs
 
