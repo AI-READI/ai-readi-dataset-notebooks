@@ -25,9 +25,6 @@ Jupyter notebooks that provide examples Python code snippets for working with th
   <a href="https://github.com/AI-READI/template/blob/main/LICENSE">
     <img src="https://img.shields.io/github/license/AI-READI/template.svg?style=flat-square" alt="license" />
   </a>
-  <a href="https://doi.org/10.5281/zenodo.12877880">
-    <img src="https://zenodo.org/badge/DOI/10.5281/zenodo.12877880.svg" alt="doi" />
-  </a>
 </p>
    
 <h4
@@ -91,11 +88,7 @@ This work is licensed under
 
 ## How to cite
 
-If you are using this software or reusing the source code from this repository for any purpose, please cite:
-
-```bash
-    ADD Citation here
-```
+If you are using this software or reusing the source code from this repository for any purpose, please cite as indicated in the [CITATION.cff](CITATION.cff) file.
 
 ## Acknowledgements
 
